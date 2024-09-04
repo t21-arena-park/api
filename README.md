@@ -63,7 +63,15 @@ DATABASE_URL="postgresql://docker:docker@localhost:5432/db_arenapark?schema=publ
 
 Você também pode copiar e colar o que está dentro do arquivo `.env.example`, porém deve mudar o **db_name**.
 
-5. **Inicie o servidor de desenvolvimento**:
+5. **Rode as migrations já criadas**:
+
+Para aplicar as migrations ao banco de dados, execute:
+
+```bash
+npx prisma migrate deploy
+```
+
+6. **Inicie o servidor de desenvolvimento**:
 
 ```bash
 npm run dev
