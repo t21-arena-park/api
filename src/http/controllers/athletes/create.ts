@@ -119,6 +119,191 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
               ],
             },
           },
+          {
+            title: 'Saúde Mental e Comportamento',
+            icon: 'LIST_TODO',
+
+            questions: {
+              create: [
+                {
+                  title:
+                    'Descreva o padrão de humor do atleta (ansioso, depressivo, irritável, raivosos, medroso, estável, instável):',
+                  question_type: 'DROPDOWN',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title: 'Observações:',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title: 'Ocorreram mudanças neste padrão?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title: 'Desde quando?',
+                  question_type: 'DATE',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Descreva o sono do atleta:',
+                  question_type: 'TRUE_FALSE',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Desde quando?',
+                  question_type: 'DATE',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title: 'Observações:',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Ocorreram mudanças neste padrão?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          {
+            title: 'Alergias e Eliminações Fisiológicas',
+            icon: 'LIST_TODO',
+
+            questions: {
+              create: [
+                {
+                  title: 'Alergias Alimentares, Medicamentosas, de Contato:',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Capacidade de Ir ao Banheiro Sozinho',
+                  question_type: 'TRUE_FALSE',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Observações:',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title: 'Incontinência Urinária e Fecal',
+                  question_type: 'TRUE_FALSE',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Observações:',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title: 'Uso de Fraldas',
+                  question_type: 'TRUE_FALSE',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Observações:',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Rotina de Necessidades Fisiológicas',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+              ],
+            },
+          },
         ],
       },
     },
