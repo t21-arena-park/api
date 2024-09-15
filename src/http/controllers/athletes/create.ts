@@ -119,6 +119,79 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
               ],
             },
           },
+
+          {
+            title: 'Aspectos Funcionais',
+            icon: 'ASPECTOS_FUNCIONAIS',
+
+            questions: {
+              create: [
+                {
+                  title: 'Cuidados pessoais (alimentação, higiene, vestir-se)',
+                  question_type: 'ESSAY',
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Locomoção (andar sozinho, sair de casa, andar de bicicleta/triciclo/patinete)',
+                  question_type: 'ESSAY',
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Organização da casa e pertences',
+                  question_type: 'ESSAY',
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Administração de dinheiro',
+                  question_type: 'ESSAY',
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Tratamento médico (controle de medicações, dietas, compreensão e registro de orientações)',
+                  question_type: 'ESSAY',
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Condução das atividades de trabalho e ocupacionais',
+                  question_type:'ESSAY',
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Problemas conjugais ou familiares',
+                  question_type: 'ESSAY',
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+              ],
+            }
+          }
         ],
       },
     },
