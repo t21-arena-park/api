@@ -122,7 +122,7 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
 
           {
             title: 'Aspectos Funcionais',
-            icon: 'ASPECTOS_FUNCIONAIS',
+            icon: 'BRAIN_CIRCUIT',
 
             questions: {
               create: [
@@ -191,7 +191,53 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
                 },
               ],
             }
-          }
+          },
+
+          {
+            title: 'Medicamentos e Exames',
+            icon: 'PILL',
+
+            questions: {
+              create: [
+                {
+                  title: 'Quais medicamentos, dosagens e motivos, que estão sendo usados pelo atleta neste momento?',
+                  question_type: 'ESSAY',
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'Liste o nome e especialidade dos médicos que fazem o acompanhamento clinico do atleta no momento:',
+                  question_type: 'ESSAY',
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                {
+                  title: 'O atleta já realizou algum dos exames abaixo?',
+                  question_type: 'MULTI_SELECT',
+                  answers: {
+                    create: {
+                      value: 'Teste de esforço , Holter , Eletroneuromiografia , Audiometria , Cintilografia de Perfusão Cerebral (Spect) , EEG (Eletroencefalograma) , Exame do Líquido Cefalorraquidiano (Líqüor) , Angiografia , RM (Ressonância Magnética de Crânio) , Mapa , TC (Tomografia Computadorizada de Crânio)',
+                    },
+                  },
+                },
+                {
+                  title: 'Irá realizar algum outro exame? Qual?',
+                  question_type: 'MULTIPLE_CHOICE',
+                  answers: {
+                    create: {
+                      value: 'Sim , Não',
+                    },
+                  },
+                }
+              ]
+            }
+          },
         ],
       },
     },
