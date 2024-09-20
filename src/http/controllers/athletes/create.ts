@@ -151,6 +151,181 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
               ],
             },
           },
+
+          // Seção 2 - Dados do Atleta/Constelação Familiar dos Pais
+        {
+          title: 'Dados do Atleta/Constelação Familiar dos Pais',
+          icon: 'Vector',
+
+          questions: {
+            create: [
+              {
+                title: 'Local do nascimento:',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Local de Procedência:',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Especificar histórico de locais e tempo de permanência:',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Estado Civil(Casado(a), Solteiro(a), Divorciado(a), Viúvo(a)):',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Especificar histórico de casamentos, separações ou viúvez:',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Tem outros Filhos? (quantos, nomes, onde residem?):',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Com quem o atleta reside: (especificar nome, idade, escolaridade, parentesco, profissão)',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+            ],
+          },
+        },
+
+                // Seção 3 - Vida Acadêmica e Ocupações/Profissão
+                {
+                  title: 'Vida Acadêmica e Ocupações/Profissão',
+                  icon: 'Vector',
+        
+                  questions: {
+                    create: [
+                      {
+                        title: 'O atleta frequentou a escola por quantos anos?',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Nível Educacional? (1 grau completo (Ensino Fundamental),  2 grau completo (Ensino Médio), 3 grau completo)',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Especificar histórico acadêmico do atleta (como foi sua performance acadêmica?):',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Especificar histórico de facilidades e dificuldades acadêmicas:',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Especificar outras áreas de interesse do atleta (hobbies, lazer, objetos etc.):',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Descrever as atividades profissionais ou de ocupações anteriores do atleta:',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Descreva as características do atleta no desempenho das atividades ocupacionais ou profissionais:',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+                    ],
+                  },
+                },
         ],
       },
     },
