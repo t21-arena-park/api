@@ -119,6 +119,7 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
               ],
             },
           },
+<<<<<<< HEAD
 
           // Seção 2 - Dados do Atleta/Constelação Familiar dos Pais
         {
@@ -209,6 +210,40 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
         },
 
                 //nova aba
+=======
+          {
+            title: 'Saúde mental e comportamento',
+            icon: 'BRAIN',
+
+            questions: {
+              create: [
+                {
+                  title:
+                    'Descreva o padrão de humor do atleta:',
+                  question_type: 'MULTI_SELECT',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Observações:',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+              ],
+            },
+          },
+>>>>>>> origin/main
         ],
       },
     },
