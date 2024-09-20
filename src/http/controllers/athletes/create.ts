@@ -224,6 +224,206 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
               ],
             },
           },
+          {
+            title: 'Alimentação',
+            icon: 'LIST_TODO',
+
+            questions: {
+              create: [
+                {
+                  title:
+                    'Quantas pessoas se alimentam na casa?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Quem é o responsável pela compra de alimentos?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'A compra é feita (diariamente, semanalmente, quinzenalmente)',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Onde os alimentos são comprados (supermercado, feira)?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Quem prepara as refeições?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Onde as refeições são realizadas?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Quantas refeições são realizadas pela família',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Quem participa das refeições?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Alguém da família possui alergia alimentar? Se sim, quem e a que?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                
+                {
+                  title:
+                    'Alguém da família possui intolerância alimentar? Se sim, quem e a que?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Alguém da família segue alguma dieta especial? Se sim, quem e por quê?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Quais são os alimentos preferidos da família?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                }, 
+
+                {
+                  title:
+                    'Alguém da família faz uso de algum suplemento alimentar? Se sim, quem e qual? Quem indicou?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Qual a quantidade de sal usada em 1 mês pela família?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Qual a quantidade de óleo usada em 1 mês pela família?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Produtos diet e light são consumidos pela família?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+              ],
+            },
+          },
         ],
       },
     },
