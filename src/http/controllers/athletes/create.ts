@@ -119,6 +119,96 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
               ],
             },
           },
+
+          // Seção 2 - Dados do Atleta/Constelação Familiar dos Pais
+        {
+          title: 'Dados do Atleta/Constelação Familiar dos Pais',
+          icon: 'Vector',
+
+          questions: {
+            create: [
+              {
+                title: 'Local do nascimento:',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Local de Procedência:',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Especificar histórico de locais e tempo de permanência:',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Estado Civil(Casado(a), Solteiro(a), Divorciado(a), Viúvo(a)):',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Especificar histórico de casamentos, separações ou viúvez:',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Tem outros Filhos? (quantos, nomes, onde residem?):',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+              {
+                title: 'Com quem o atleta reside: (especificar nome, idade, escolaridade, parentesco, profissão)',
+                question_type: 'ESSAY',
+
+                answers: {
+                  create: {
+                    value: '',
+                  },
+                },
+              },
+
+            ],
+          },
+        },
+
+                //nova aba
         ],
       },
     },
