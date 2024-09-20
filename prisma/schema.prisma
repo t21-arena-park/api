@@ -227,6 +227,7 @@ model Question {
   title       String
   description String?
   observation String?
+  options     String?
 
   question_type QuestionType
 

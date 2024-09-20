@@ -119,7 +119,38 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
               ],
             },
           },
-<<<<<<< HEAD
+          {
+            title: 'Saúde mental e comportamento',
+            icon: 'BRAIN',
+
+            questions: {
+              create: [
+                {
+                  title:
+                    'Descreva o padrão de humor do atleta:',
+                  question_type: 'MULTI_SELECT',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Observações:',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+              ],
+            },
+          },
 
           // Seção 2 - Dados do Atleta/Constelação Familiar dos Pais
         {
@@ -209,41 +240,92 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
           },
         },
 
-                //nova aba
-=======
-          {
-            title: 'Saúde mental e comportamento',
-            icon: 'BRAIN',
-
-            questions: {
-              create: [
+                // Seção 3 - Vida Acadêmica e Ocupações/Profissão
                 {
-                  title:
-                    'Descreva o padrão de humor do atleta:',
-                  question_type: 'MULTI_SELECT',
-
-                  answers: {
-                    create: {
-                      value: '',
-                    },
+                  title: 'Vida Acadêmica e Ocupações/Profissão',
+                  icon: 'Vector',
+        
+                  questions: {
+                    create: [
+                      {
+                        title: 'O atleta frequentou a escola por quantos anos?',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Nível Educacional? (1 grau completo (Ensino Fundamental),  2 grau completo (Ensino Médio), 3 grau completo)',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Especificar histórico acadêmico do atleta (como foi sua performance acadêmica?):',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Especificar histórico de facilidades e dificuldades acadêmicas:',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Especificar outras áreas de interesse do atleta (hobbies, lazer, objetos etc.):',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Descrever as atividades profissionais ou de ocupações anteriores do atleta:',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+        
+                      {
+                        title: 'Descreva as características do atleta no desempenho das atividades ocupacionais ou profissionais:',
+                        question_type: 'ESSAY',
+        
+                        answers: {
+                          create: {
+                            value: '',
+                          },
+                        },
+                      },
+                    ],
                   },
                 },
-
-                {
-                  title:
-                    'Observações:',
-                  question_type: 'ESSAY',
-
-                  answers: {
-                    create: {
-                      value: '',
-                    },
-                  },
-                },
-              ],
-            },
-          },
->>>>>>> origin/main
         ],
       },
     },
